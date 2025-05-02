@@ -153,7 +153,7 @@ const Projects = () => {
                     className="border-coolBlue-500/50 text-coolBlue-500 dark:text-coolBlue-400 hover:bg-coolBlue-500/10 transition-all duration-300"
                     asChild
                   >
-                    <a href={project.links.github} target="_blank" rel="noopener noreferrer">
+                    <a href={project.links.github} target="_blank" rel="noopener noreferrer" className="z-[1000]">
                       <Github className="h-4 w-4 mr-2" />
                       Code
                     </a>
@@ -163,7 +163,7 @@ const Projects = () => {
                     className="bg-gradient-to-r from-coolBlue-500 to-techPurple-500 hover:shadow-md hover:shadow-primary/20 transition-all duration-300"
                     asChild
                   >
-                    <a href={project.links.demo} target="_blank" rel="noopener noreferrer">
+                    <a href={project.links.demo} target="_blank" rel="noopener noreferrer" className="z-[1000]">
                       <ExternalLink className="h-4 w-4 mr-2" />
                       Demo
                     </a>

@@ -37,6 +37,19 @@ const Contact = () => {
               <CardContent className="p-6">
                 <div className="flex flex-col items-center text-center">
                   <h3 className="text-2xl font-semibold mb-8 text-coolBlue-500 dark:text-coolBlue-400">Get In Touch</h3>
+                  
+                  <div className="flex flex-col items-center">
+                      <div className="bg-gradient-to-br from-coolBlue-500 to-techPurple-500 p-3 rounded-full mb-4">
+                        <Phone className="h-5 w-5 text-white" />
+                      </div>
+                      <h4 className="font-medium mb-2">Phone</h4>
+                      <a
+                        href="tel:+12138343080"
+                        className="text-foreground/70 hover:text-coolBlue-500 transition-colors text-center"
+                      >
+                        +1 (213) 834-3080
+                      </a>
+                    </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full">
                     <div className="flex flex-col items-center">
@@ -52,18 +65,7 @@ const Contact = () => {
                       </a>
                     </div>
 
-                    <div className="flex flex-col items-center">
-                      <div className="bg-gradient-to-br from-coolBlue-500 to-techPurple-500 p-3 rounded-full mb-4">
-                        <Phone className="h-5 w-5 text-white" />
-                      </div>
-                      <h4 className="font-medium mb-2">Phone</h4>
-                      <a
-                        href="tel:+12138343080"
-                        className="text-foreground/70 hover:text-coolBlue-500 transition-colors text-center"
-                      >
-                        +1 (213) 834-3080
-                      </a>
-                    </div>
+   
 
                     <div className="flex flex-col items-center">
                       <div className="bg-gradient-to-br from-coolBlue-500 to-techPurple-500 p-3 rounded-full mb-4">
