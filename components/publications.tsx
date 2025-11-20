@@ -8,6 +8,15 @@ import { BookOpen, Calendar, ExternalLink } from "lucide-react"
 import { Button } from "./ui/button"
 
 const publicationsData = [
+    {
+    title:
+      "Hierarchical Attention-Enhanced Multihead CNN and Level Sets Segmentation: A Proposed Approach to Enhance the Cyclone Intensity Estimation",
+    journal: "Advances in Space Research - Elsevier Journal",
+    date: "October 2025",
+    status: "Published",
+    tags: ["CNN", "Attention Mechanisms", "Cyclone Intensity", "Segmentation"],
+    doi: "https://www.sciencedirect.com/science/article/pii/S0273117725011329?via%3Dihub",
+  },
   {
     title:
       "Enhanced remote sensing and deep learning aided water quality detection in the Ganges River, India supporting monitoring of aquatic environments",
@@ -17,26 +26,7 @@ const publicationsData = [
     tags: ["Remote Sensing", "Deep Learning", "Water Quality", "Environmental Monitoring"],
     doi: "https://www.sciencedirect.com/science/article/pii/S2590123024018474",
   },
-  {
-    title:
-      "Hierarchical Attention-Enhanced Multihead CNN and Level Sets Segmentation: A Proposed Approach to Enhance the Cyclone Intensity Estimation",
-    journal: "Computers & Geosciences - Elsevier Journal",
-    date: "February 2024",
-    status: "Under Review",
-    manuscriptId: "ESWA-D-23-11368",
-    tags: ["CNN", "Attention Mechanisms", "Cyclone Intensity", "Segmentation"],
-    preprint: "https://arxiv.org/abs/2402.12345",
-  },
-  {
-    title: "Parallelization of Molecular Dynamics Simulations",
-    conference: "International Conference on MAchine inTelligence for Research Innovation (MAiTRI-2023 Summit)",
-    date: "August 2023",
-    status: "Presented",
-    paperId: "115",
-    isFirstAuthor: true,
-    tags: ["Molecular Dynamics", "Parallelization", "High Performance Computing"],
-    conferenceLink: "https://link.springer.com/chapter/10.1007/978-981-99-8129-8_22",
-  },
+
   {
     title: "Quantitative Nuclei Analysis for Accurate Detection of Breast Abnormalities through Machine Learning",
     conference: "IEEE Global Conference on Information Technologies and Communications",
@@ -46,6 +36,15 @@ const publicationsData = [
     isFirstAuthor: true,
     tags: ["Medical Imaging", "Machine Learning", "Breast Cancer Detection"],
     conferenceLink: "https://ieeexplore.ieee.org/document/10426527",
+  },
+    {
+    title: "Parallelization of Molecular Dynamics Simulations",
+    conference: "International Conference on MAchine inTelligence for Research Innovation (MAiTRI-2023 Summit)",
+    date: "August 2023",
+    status: "Presented",
+    isFirstAuthor: true,
+    tags: ["Molecular Dynamics", "Parallelization", "High Performance Computing"],
+    conferenceLink: "https://link.springer.com/chapter/10.1007/978-981-99-8129-8_22",
   },
 ]
 
