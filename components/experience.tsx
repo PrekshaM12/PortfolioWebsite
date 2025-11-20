@@ -8,6 +8,32 @@ import { Briefcase, CalendarDays, MapPin } from "lucide-react"
 
 const experienceData = [
   {
+    position: "Software Developer Intern",
+    company: "Mapsol Mapsol Geospatial Solutions Inc.",
+    location: "Beaumont, California",
+    period: "Oct 2025 - Present",
+   achievements: [
+    {
+      title: "Interactive GeoTower UI and Map Legend System",
+      description:
+      "Redesigned the GeoTower component by removing costly UI re-renders, fixing lagging resize behavior, and creating a scalable map-legend interface that aligns color-coded layers with real-time geospatial data.",
+      skills: ["UI Optimization", "Angular", "Geospatial Visualization"],
+    },
+    {
+      title: "Modular Frontend Architecture with Lego-Block Components",
+      description:
+        "Implemented a reusable, component-driven architecture using Angular to support dynamic HTML rendering, enabling faster feature development and simplifying long-term integrations with backend services.",
+      skills: ["Angular", "Component Design", "Frontend Architecture"],
+    },
+    {
+      title: "Performance Improvements for Fuse.Earth Portal",
+      description:
+        "Enhanced portal responsiveness by refactoring heavy DOM rebuilds, improving data population workflows, and streamlining form preloading logic for expert-level specifications and file summaries.",
+      skills: ["JavaScript", "Performance Engineering", "Data Handling"],
+    },
+  ],
+  },
+  {
     position: "Machine Learning Internship",
     company: "National Institute of Technology",
     location: "Tiruchirappalli, India",
